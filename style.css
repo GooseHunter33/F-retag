@@ -39,9 +39,11 @@ main{
     text-align: center;
     
 }
-main h1{
+
+
+.lookFirst{
     text-align: center;
-    font-size: 5em ;
+    font-size: 4em ;
 }
 
 .attributes{
@@ -50,6 +52,24 @@ main h1{
     grid-template-rows: 1fr 1fr 1fr 1fr;
 }
 
+.mid{
+    grid-area:1 / 2;
+}
+
+.leftTop{
+grid-area: 4/1 ;
+text-align: end;
+}
+
+.leftBottom{
+    grid-area:3/1 ;
+    text-align: end;
+}
+
+.leftMiddle{
+    grid-area:2/1;
+    text-align: end;
+}
  
 footer{
      background-color:#e84d74  ;
@@ -60,6 +80,7 @@ footer{
     padding-top:20px ;
     
 }
+
 
 .find{
     grid-area: 2 / 2;
