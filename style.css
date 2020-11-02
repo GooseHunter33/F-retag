@@ -47,7 +47,9 @@ main{
     
 }
 
-
+.quote{
+    font-size: 40px;
+}
 .lookFirst{
     text-align: center;
     font-size: 4em ;
