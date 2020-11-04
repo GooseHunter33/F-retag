@@ -47,6 +47,24 @@ main{
     
 }
 
+.hummerNeed{
+    display: flex;
+    flex-direction: row;
+    color: black;
+    flex-wrap: wrap;
+    
+    
+}
+.container{
+    width: 50%;
+    padding: 2%;
+   flex: 300px;
+   border: 5px black solid;
+}
+
+
+
+
 .quote{
     font-size: 40px;
 }
