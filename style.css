@@ -87,15 +87,17 @@ article p {
 .lobsterBlock {
   display: flex;
 
-  justify-content: space-between;
-  border: 5px black solid;
-  margin-bottom: 100px;
+  justify-content: space-evenly;
+  
+  margin-bottom: 50px;
+  
   
   
  
 }
 .text
 {
+  
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -103,7 +105,8 @@ article p {
 }
 
 .img-container {
- width: 200%;
+ width: 50%;
+ 
  
     border: 5px black solid;
     background-color: black;
@@ -115,6 +118,25 @@ article p {
  
   
 }
+
+
+
+
+.button{
+  font-style: italic;
+  text-decoration: none;
+  color: black;
+  border: 2px black dashed;
+  margin: 5px;
+}
+
+.button :hover{
+  background-color: black;
+}
+
+
+
+
 
 footer {
   background-color: #e84d74;
