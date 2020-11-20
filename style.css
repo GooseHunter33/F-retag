@@ -29,7 +29,7 @@ header {
   text-align: center;
   padding: 4vh;
 }
-.Länk {
+.länk {
   list-style: none;
   display: flex;
   justify-content: center;
@@ -48,7 +48,7 @@ nav a {
   color: black;
 }
 
-.Länk :hover {
+.länk :hover {
   background-color: white;
 }
 
