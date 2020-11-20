@@ -101,7 +101,7 @@ article p {
 .lobsterBlock {
   display: flex;
 
-  justify-content: space-evenly;
+  justify-content: space-around;
 
   margin-bottom: 50px;
   margin-top: 20px;
