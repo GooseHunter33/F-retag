@@ -56,8 +56,6 @@ main {
   text-align: center;
 }
 
-
-
 article p {
   padding-bottom: 25px;
 }
@@ -166,7 +164,7 @@ footer {
   grid-column: 1;
   grid-row: 2;
 }
-.contact{
+.contact {
   grid-column: 1;
   grid-row: 3;
 }
